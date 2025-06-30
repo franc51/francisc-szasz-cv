@@ -1,0 +1,61 @@
+.intro_container {
+  height: 72vh;
+  background-color: rgba(92, 92, 255, 0.355);
+  position: relative;
+  background-image: url("https://images4.alphacoders.com/110/1108171.png");
+  background-size: cover;
+  background-position: 1rem left;
+}
+.intro_button {
+  all: unset;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  padding: 1rem 1.5rem;
+  padding-left: 2.2rem;
+  border: none;
+  border-top-right-radius: 2rem;
+  border-bottom-right-radius: 2rem;
+  background-color: #4cc1fbad;
+  font-size: 0.8rem;
+  transition: 0.2s ease;
+  background-image: url("/public/assets/script.png");
+  background-position: left;
+  background-repeat: no-repeat;
+}
+.intro_button:hover {
+  font-size: 1rem;
+  padding: 1.3rem 3rem;
+  background-color: #8fdaff;
+  background-position: 0.5rem;
+}
+.intro_button::after {
+  padding: 1rem 1.5rem;
+  background-color: #4cc1fbd8;
+}
+.intro_button p {
+  animation: infinite 2s heartBeat;
+}
+.intro_name {
+  position: absolute;
+  bottom: 5%;
+  right: 0;
+  left: 0;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.755);
+  color: white;
+  font-size: 4rem;
+  padding: 0.5rem 0;
+}
+
+@keyframes heartBeat {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
