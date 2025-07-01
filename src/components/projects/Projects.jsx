@@ -10,13 +10,13 @@ const Projects = () => {
         </div>
         <div className="projects_filter_btns">
           <button>
-            <a>Angular Projects</a>
+            <a href="#as">Angular Projects</a>
           </button>
           <button>
-            <a>React Projects</a>
+            <a href="#as">React Projects</a>
           </button>
           <button>
-            <a>All Projects</a>
+            <a href="#as">All Projects</a>
           </button>
         </div>
       </div>
@@ -47,8 +47,8 @@ const Projects = () => {
           <iframe
             width="1250"
             height="703"
-            src="https://www.youtube.com/embed/TJlcNHUqIf8"
-            title="Carly - Digital Vehicle Registration Platform"
+            src="https://www.youtube.com/embed/1F-IUGPY188"
+            title="Carly"
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             referrerpolicy="strict-origin-when-cross-origin"
