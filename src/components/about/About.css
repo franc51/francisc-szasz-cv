@@ -1,0 +1,21 @@
+.about_container {
+  display: flex;
+}
+.about_title {
+  width: 15%;
+}
+.about_description {
+  width: 85%;
+}
+.about_description h3 {
+  font-size: 1.3rem;
+  color: #265768;
+}
+.about_description p {
+  font-size: 1.4rem;
+  font-weight: 100;
+  margin: 1rem 0;
+}
+hr {
+  margin: 2rem 0;
+}

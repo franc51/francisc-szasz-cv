@@ -1,0 +1,27 @@
+.skills_container {
+  display: flex;
+}
+.skills_title {
+  width: 15%;
+}
+.skills_description {
+  width: 85%;
+  display: flex;
+  justify-content: start;
+  gap: 10rem;
+}
+.skill_part {
+  color: #265768;
+}
+hr {
+  margin: 0.5rem 0;
+}
+p {
+  font-size: 1.4rem;
+  transition: 0.2s ease;
+}
+p:hover {
+  color: #4cc1fbad;
+  cursor: pointer;
+  transform: translate(1rem);
+}

@@ -1,8 +1,11 @@
 nav {
   display: flex;
   justify-content: space-between;
-  background-color: #c8cbd0;
+  background-color: #c8cbd0b9;
   padding: 1.3rem 2rem;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
 
   ul {
     display: flex;
@@ -27,5 +30,8 @@ nav {
   h3:hover {
     transition: 0.2s ease;
     color: rgba(0, 0, 255, 0.484);
+  }
+  a {
+    all: unset;
   }
 }

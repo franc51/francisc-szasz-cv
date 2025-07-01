@@ -1,5 +1,5 @@
 .intro_container {
-  height: 72vh;
+  height: 70vh;
   background-color: rgba(92, 92, 255, 0.355);
   position: relative;
   background-image: url("https://images4.alphacoders.com/110/1108171.png");
@@ -11,18 +11,20 @@
   position: absolute;
   top: 50%;
   left: 0;
-  padding: 1rem 1.5rem;
+  padding: 1.5rem 2rem;
   padding-left: 2.2rem;
   border: none;
   border-top-right-radius: 2rem;
   border-bottom-right-radius: 2rem;
   background-color: #4cc1fbad;
   font-size: 0.8rem;
+  font-weight: 600;
   transition: 0.2s ease;
   background-image: url("/public/assets/script.png");
   background-position: left;
   background-repeat: no-repeat;
   cursor: pointer;
+  color: black;
 }
 .intro_button:hover {
   font-size: 1rem;
@@ -36,6 +38,7 @@
 }
 .intro_button p {
   animation: infinite 2s heartBeat;
+  color: black !important;
 }
 .intro_name {
   position: absolute;
@@ -47,6 +50,11 @@
   color: white;
   font-size: 4rem;
   padding: 0.5rem 0;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+.intro_name:hover {
+  color: #4cc1fbad;
 }
 
 @keyframes heartBeat {
