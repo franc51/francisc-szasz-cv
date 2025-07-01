@@ -47,8 +47,8 @@ const Projects = () => {
           <iframe
             width="1250"
             height="703"
-            src="https://www.youtube.com/embed/t3zlu6Y9goE"
-            title="Wave (feat. Mansasworld) | #nightride"
+            src="https://www.youtube.com/embed/TJlcNHUqIf8"
+            title="Carly - Digital Vehicle Registration Platform"
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             referrerpolicy="strict-origin-when-cross-origin"
