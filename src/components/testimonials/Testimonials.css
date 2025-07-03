@@ -1,0 +1,22 @@
+.testimonials_container {
+  display: flex;
+  padding: 2rem 4rem;
+}
+.testimonials_title {
+  width: 15%;
+}
+.testimonials {
+  width: 85%;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.testimonials h2 {
+  color: #0088cc;
+}
+.testimonials_each {
+  width: 85%;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}

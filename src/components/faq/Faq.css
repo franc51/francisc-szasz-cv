@@ -1,0 +1,16 @@
+.faq_container {
+  display: flex;
+  padding: 2rem 4rem;
+}
+.faq_title {
+  width: 15%;
+}
+.faq_accordions {
+  width: 50%;
+}
+.faq_accordions Accordion {
+  font-size: 2rem;
+}
+.ac {
+  margin: 1rem 0 !important;
+}

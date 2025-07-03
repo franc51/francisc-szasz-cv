@@ -20,7 +20,7 @@ p {
   font-size: 1.4rem;
   transition: 0.2s ease;
 }
-p:hover {
+.skills_animation p:hover {
   color: #4cc1fbad;
   cursor: pointer;
   transform: translate(1rem);

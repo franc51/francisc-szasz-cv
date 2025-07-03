@@ -4,7 +4,9 @@
   margin: 0;
   font-family: "Comic relief";
 }
-
+body {
+  background-color: rgba(168, 242, 255, 0.055);
+}
 html {
   scroll-behavior: smooth;
 }
