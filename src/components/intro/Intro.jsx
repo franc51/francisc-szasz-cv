@@ -24,7 +24,7 @@ const Intro = () => {
         sequence={[
           // Same substring at the start will only be typed out once, initially
           "Francisc Szasz",
-          10000,
+          2000,
           "Francisc Szasz - Frontend Engineer",
           10000,
           "Francisc Szasz - Software Developer",
