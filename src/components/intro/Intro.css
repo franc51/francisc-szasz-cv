@@ -5,6 +5,7 @@
   background-image: url("https://images4.alphacoders.com/110/1108171.png");
   background-size: cover;
   background-position: 1rem left;
+  transition: 0.2s ease;
 }
 .intro_button {
   all: unset;
@@ -49,22 +50,11 @@
   background-color: rgba(0, 0, 0, 0.755);
   color: white;
   font-size: 4rem;
+  font-weight: 900;
   padding: 0.5rem 0;
   cursor: pointer;
   transition: 0.2s ease;
 }
 .intro_name:hover {
   color: #4cc1fbad;
-}
-
-@keyframes heartBeat {
-  0% {
-    transform: scale(1);
-  }
-  50% {
-    transform: scale(1.1);
-  }
-  100% {
-    transform: scale(1);
-  }
 }

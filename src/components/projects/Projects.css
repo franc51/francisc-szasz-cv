@@ -44,7 +44,7 @@
   background-position: 1rem;
   background-repeat: no-repeat;
   text-align: right;
-  animation: infinite 2s heartBeat;
+  animation: infinite 2s buttonHeart;
   cursor: pointer;
 }
 .link_btns button:hover {
@@ -86,12 +86,11 @@ a {
   all: unset;
 }
 
-@keyframes heartBeat {
+@keyframes buttonHeart {
   0% {
     transform: scale(1);
   }
   50% {
-    translate: 1rem;
     transform: scale(1.05);
   }
   100% {

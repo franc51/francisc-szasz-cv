@@ -1,8 +1,9 @@
 import React from "react";
 import "./Intro.css";
 import Confetti from "react-confetti";
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import { useWindowSize } from "react-use";
+import { TypeAnimation } from "react-type-animation";
 
 const Intro = () => {
   const [showConfetti, setShowConfetti] = useState(false);
@@ -17,9 +18,16 @@ const Intro = () => {
 
   return (
     <div className="intro_container">
-      <h1 className="intro_name" onClick={handleMouseEnter}>
-        Francisc Szasz - Frontend Engineer
-      </h1>
+      <TypeAnimation
+        className="intro_name"
+        onClick={handleMouseEnter}
+        sequence={[
+          // Same substring at the start will only be typed out once, initially
+          "Francisc Szasz - Frontend Engineer",
+        ]}
+        speed={10}
+        repeat={Infinity}
+      />
       <a href="/assets/Szasz-Francisc-CV-EN.pdf" download>
         <button className="intro_button">
           <p>Download Resume</p>
