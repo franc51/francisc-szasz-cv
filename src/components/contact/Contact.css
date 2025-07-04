@@ -7,7 +7,6 @@
   padding: 2rem;
   align-items: stretch;
   transition: all 0.5s ease;
-  border: 1px solid rgba(128, 128, 128, 0.171);
 }
 .goback_btn {
   width: 10rem;
@@ -30,9 +29,7 @@
   gap: 1rem;
   flex: 0 0 30%;
   transition: 0.3s ease;
-}
-.contact_details:hover {
-  background-color: rgba(168, 242, 255, 0.055);
+  background-color: rgba(0, 38, 255, 0.089);
 }
 
 .contact_details img {
@@ -46,12 +43,12 @@
   transition: max-height 0.5s ease;
   display: flex;
   flex-direction: column;
+  align-items: center;
+  text-align: center;
   gap: 2rem;
   transition: 0.3s ease;
   padding: 1rem;
-}
-.contact_form:hover {
-  background-color: rgba(168, 242, 255, 0.055);
+  border: 1px solid rgba(128, 128, 128, 0.192);
 }
 .contact_form h1 {
   font-size: 3rem;
@@ -62,10 +59,31 @@
 .inputs {
   display: flex;
   flex-direction: column;
+  align-items: center;
   margin: 0 !important;
 }
+.success {
+  color: green;
+}
+.thank_you {
+  font-size: 2rem;
+  font-weight: 900;
+  position: relative;
+}
+.cloud {
+  background-color: rgba(0, 38, 255, 0.089);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  width: 100%;
+}
 .submit_btn {
-  padding-left: 0.5rem;
+  width: 100%;
+  background-color: black !important;
+  margin: 0 8rem !important;
+  color: white !important;
+  padding: 0.5rem !important;
 }
 
 @keyframes heartBeat {

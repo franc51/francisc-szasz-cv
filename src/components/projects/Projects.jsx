@@ -70,13 +70,7 @@ const Projects = () => {
                 <p>Technologies used: {project.tech}</p>
               </div>
               <div className="projects_demo">
-                <iframe
-                  src={project.video}
-                  title={project.title}
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                  referrerPolicy="strict-origin-when-cross-origin"
-                  allowFullScreen
-                ></iframe>
+                <img src={project.video} alt="preview"></img>
               </div>
             </div>
             <hr />

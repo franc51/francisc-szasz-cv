@@ -7,7 +7,7 @@ export const projectData = [
     github: "https://github.com/franc51/carly5",
     website: "https://carly-58c95.web.app/",
     tech: "Angular, Angular Material, Firebase, Auth0, Stripe, EmailJS, Uploadcare",
-    video: "https://www.youtube.com/embed/1F-IUGPY188",
+    video: "https://i.ibb.co/LzKtt4DY/carly.png",
     category: "Angular",
   },
   {
@@ -18,7 +18,7 @@ export const projectData = [
     github: "https://github.com/franc51/carly5",
     website: "https://carly-58c95.web.app/",
     tech: "Angular, Angular Material, MongoDB, Flask, Python, Docker",
-    video: "https://www.youtube.com/embed/1F-IUGPY188",
+    video: "https://i.ibb.co/cKPTkfkF/velto.png",
     category: "Angular",
   },
   {
@@ -29,7 +29,7 @@ export const projectData = [
     github: "https://github.com/franc51/carly5",
     website: "https://carly-58c95.web.app/",
     tech: "React, Node.js, Express.js, WebSockets, MongoDB, Render web services",
-    video: "https://www.youtube.com/embed/1F-IUGPY188",
+    video: "https://i.ibb.co/QqSvnnf/whatsdown.png",
     category: "React",
   },
   {
@@ -40,7 +40,7 @@ export const projectData = [
     github: "https://github.com/franc51/carly5",
     website: "https://carly-58c95.web.app/",
     tech: "HTML5, CSS3, JavaScript",
-    video: "https://www.youtube.com/embed/1F-IUGPY188",
+    video: "https://i.ibb.co/QvXw4tc9/sunnyside.png",
     category: "Other",
   },
 ];
