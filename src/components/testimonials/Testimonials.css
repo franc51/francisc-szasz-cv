@@ -20,3 +20,6 @@
   flex-direction: column;
   gap: 3rem;
 }
+.testimonials p {
+  font-style: italic;
+}

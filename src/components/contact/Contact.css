@@ -69,6 +69,7 @@
   font-size: 2rem;
   font-weight: 900;
   position: relative;
+  text-align: center;
 }
 .cloud {
   background-color: rgba(0, 38, 255, 0.089);

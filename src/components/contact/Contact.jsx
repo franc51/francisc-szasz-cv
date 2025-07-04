@@ -149,10 +149,20 @@ const Contact = () => {
             className="thank_you"
             sequence={[
               // Same substring at the start will only be typed out once, initially
-              "Thank you!",
+              "Hey!",
+              2000,
+              "Let's chat.",
+              2000,
+              "Let's develop.",
+              2000,
+              "Let's build.",
+              3000,
+              "Let's code.",
+              4000,
+              "Let's create digital experiences.",
               2000,
               "I'll get back to you soon.",
-              10000,
+              5000,
             ]}
             speed={10}
             repeat={Infinity}

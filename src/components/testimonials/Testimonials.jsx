@@ -10,8 +10,26 @@ const Testimonials = () => {
       <div className="testimonials_each">
         <div className="testimonials">
           <h1>Sebastian Onofrei</h1>
-          <h2>Senior Frontend Engineer @IBM</h2>
-          <p>Francisc is the best of the best.</p>
+          <h2>Senior Full Stack Engineer @IBM</h2>
+          <p>
+            During the last 2 years, I have mentored Francisc in order to
+            solidify his frontend expertise and to become familiar to backend
+            concepts. I have put him through a lot of hard work and challenges,
+            to be user focused and to have a mentality to give his best in
+            whatever task he is assigned to work on. He is easy to work with,
+            passionate about the craft of software development and very eager to
+            give his help to a welcoming team. <br></br>
+            <br></br>
+            Whilst his main expertise is frontend development, where he got lots
+            of hands-on experience, we have also explored crucial backend
+            concepts and he is able to help on the backend side if needed. I
+            have tried to diversify his tech stack and put him to learn about
+            multiple technologies in order to be a versatile, T-shaped
+            developer.
+            <br></br> <br></br>I can proudly say he can be a great asset to any
+            team which wants to grow with a junior / junior-mid role.
+            <hr></hr>
+          </p>
         </div>
 
         <div className="testimonials">
