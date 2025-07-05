@@ -44,9 +44,11 @@ const Faq = () => {
           </AccordionSummary>
           <AccordionDetails>
             <p>
-              A blend of magic web wizardry, a touch of Gandalf's wisdom, a
-              bucket of creativity, and lots of baby sitting with the juniors -
-              teaching them how to speak their first real words in JavaScript.{" "}
+              I can break down complex problems, evaluate options quickly, and
+              summarize best practices — whether it's performance optimization,
+              architecture decisions, or library/framework selection - put
+              simply: I will help you spend more time creating, and less time
+              wrestling with technical traps.
             </p>
           </AccordionDetails>
         </Accordion>
@@ -63,9 +65,9 @@ const Faq = () => {
           </AccordionSummary>
           <AccordionDetails>
             <p>
-              My rate is $6200 / month for large scale projects. For shorter
-              commitments (1-day project / under 1 month of commitment) - $300/
-              day.
+              My rate is $2000 / month for large scale projects. For shorter
+              commitments (1-day project / under 1 month of commitment) - $100/
+              day. In terms of salary, $1000-1700 / month.
             </p>
           </AccordionDetails>
         </Accordion>

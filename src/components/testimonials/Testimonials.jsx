@@ -31,18 +31,6 @@ const Testimonials = () => {
             <hr></hr>
           </p>
         </div>
-
-        <div className="testimonials">
-          <h1>Sebastian Onofrei</h1>
-          <h2>Senior Frontend Engineer @IBM</h2>
-          <p>Francisc is the best of the best.</p>
-        </div>
-
-        <div className="testimonials">
-          <h1>Sebastian Onofrei</h1>
-          <h2>Senior Frontend Engineer @IBM</h2>
-          <p>Francisc is the best of the best.</p>
-        </div>
       </div>
     </div>
   );

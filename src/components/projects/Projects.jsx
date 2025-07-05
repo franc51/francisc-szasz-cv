@@ -25,7 +25,7 @@ const Projects = () => {
             <button
               key={cat}
               data-tooltip-id="ngprojects"
-              data-tooltip-content={`Show only ${cat} projects`}
+              data-tooltip-content={`Show ${cat} projects`}
               className={filter === cat ? "active" : ""}
               onClick={() => setFilter(cat)}
             >
