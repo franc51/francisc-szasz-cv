@@ -18,14 +18,14 @@ const Faq = () => {
             id="panel2-header"
             expandIcon={<ExpandMoreIcon />}
           >
-            <p>
+            <p className="text_size">
               <strong>
                 Can we collaborate with you for developing a web application?
               </strong>
             </p>
           </AccordionSummary>
           <AccordionDetails>
-            <p>
+            <p className="text_size">
               I'm open to all collaborations, we can discuss details at
               francisc_szasz@yahoo.com
             </p>
@@ -38,12 +38,12 @@ const Faq = () => {
             id="panel2-header"
             expandIcon={<ExpandMoreIcon />}
           >
-            <p>
+            <p className="text_size">
               <strong>What do i get in exchange for your expertise?</strong>
             </p>
           </AccordionSummary>
           <AccordionDetails>
-            <p>
+            <p className="text_size">
               I can break down complex problems, evaluate options quickly, and
               summarize best practices — whether it's performance optimization,
               architecture decisions, or library/framework selection - put
@@ -59,12 +59,12 @@ const Faq = () => {
             id="panel2-header"
             expandIcon={<ExpandMoreIcon />}
           >
-            <p>
+            <p className="text_size">
               <strong>What is the price for your expertise?</strong>
             </p>
           </AccordionSummary>
           <AccordionDetails>
-            <p>
+            <p className="text_size">
               My rate is $2000 / month for large scale projects. For shorter
               commitments (1-day project / under 1 month of commitment) - $100/
               day. In terms of salary, $1000-1700 / month.
@@ -78,12 +78,12 @@ const Faq = () => {
             id="panel2-header"
             expandIcon={<ExpandMoreIcon />}
           >
-            <p>
+            <p className="text_size">
               <strong>How can you impact my team?</strong>
             </p>
           </AccordionSummary>
           <AccordionDetails>
-            <p>
+            <p className="text_size">
               Because being a mentor is my final goal, I believe that in
               addition to delivering exceptional technical expertise, my role
               should be centered around less experienced people in the team or
@@ -101,12 +101,12 @@ const Faq = () => {
             id="panel2-header"
             expandIcon={<ExpandMoreIcon />}
           >
-            <p>
+            <p className="text_size">
               <strong>When do we start working together?</strong>
             </p>
           </AccordionSummary>
           <AccordionDetails>
-            <p>
+            <p className="text_size">
               Whenever I am not engaged in other commitments and my schedule
               allows it. I usually prefer and prioritise long term commitments
               (minimum 6 months - 1 year).

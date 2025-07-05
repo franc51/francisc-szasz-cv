@@ -94,7 +94,7 @@ a {
 
 @media screen and (max-width: 600px) {
   .projects_container {
-    padding: 2rem;
+    padding: 1rem;
   }
   .projects_tile {
     flex-direction: column;
@@ -119,6 +119,10 @@ a {
   }
   .projects_left {
     width: 100%;
+    gap: 1rem;
+  }
+  .projects_left p {
+    font-size: 1rem;
   }
   .projects_demo {
     width: 100%;
@@ -126,5 +130,17 @@ a {
     position: relative;
     overflow: hidden;
     margin: 1rem 0;
+  }
+  .link_btns button {
+    border: none;
+    padding: 0.5rem 1rem;
+    padding-left: 4rem;
+    background-color: rgba(0, 132, 255, 0.103);
+    font-size: 1.1rem;
+    background-position: 1rem;
+    background-repeat: no-repeat;
+    text-align: right;
+    animation: infinite 2s buttonHeart;
+    cursor: pointer;
   }
 }

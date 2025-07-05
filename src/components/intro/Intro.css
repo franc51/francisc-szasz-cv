@@ -61,11 +61,12 @@
 
 @media screen and (max-width: 600px) {
   .intro_container {
-    height: 100vh;
+    height: 90vh;
     position: relative;
     background-position: center;
   }
   .intro_name {
+    background-color: rgba(0, 0, 0, 0.841);
     bottom: 50%;
     font-size: 2.1rem;
     padding: 2rem 0;
