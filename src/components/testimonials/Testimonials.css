@@ -23,3 +23,23 @@
 .testimonials p {
   font-style: italic;
 }
+
+@media screen and (max-width: 600px) {
+  .testimonials_container {
+    padding: 2rem;
+    flex-direction: column;
+  }
+  .testimonials_title {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+  .testimonials {
+    width: 100%;
+  }
+  .testimonials h2 {
+    font-size: 1.1rem;
+  }
+  .testimonials p {
+    font-size: 1.1rem;
+  }
+}

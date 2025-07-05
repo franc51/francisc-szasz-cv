@@ -94,7 +94,9 @@ const Contact = () => {
             className="inputs"
             component="form"
             onSubmit={handleSubmit}
-            sx={{ "& > :not(style)": { m: 1, width: "40ch" } }}
+            sx={{
+              "& > :not(style)": { m: 1, width: "100%" }, // children fill container width
+            }}
             noValidate
             autoComplete="off"
           >

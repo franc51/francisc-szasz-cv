@@ -16,6 +16,11 @@ html {
   flex-direction: column;
   gap: 2rem;
 }
+@media screen and (max-width: 600px) {
+  .main_container {
+    padding: 0.5rem !important;
+  }
+}
 /* Width of the entire scrollbar */
 ::-webkit-scrollbar {
   width: 1rem;

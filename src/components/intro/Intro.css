@@ -58,3 +58,22 @@
 .intro_name:hover {
   color: #4cc1fbad;
 }
+
+@media screen and (max-width: 600px) {
+  .intro_container {
+    height: 100vh;
+    position: relative;
+    background-position: center;
+  }
+  .intro_name {
+    bottom: 50%;
+    font-size: 2.1rem;
+    padding: 2rem 0;
+  }
+  .intro_button {
+    top: 75%;
+    p {
+      font-size: 1.1rem;
+    }
+  }
+}

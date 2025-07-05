@@ -91,3 +91,40 @@ a {
     transform: scale(1);
   }
 }
+
+@media screen and (max-width: 600px) {
+  .projects_container {
+    padding: 2rem;
+  }
+  .projects_tile {
+    flex-direction: column;
+  }
+  .projects_filter_btns button {
+    border: none;
+    background-color: rgba(0, 255, 255, 0.13);
+    padding: 0.5rem 0.8rem;
+    border-radius: 1rem;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 300;
+    transition: 0.2s ease;
+  }
+  .projects_filter_btns {
+    gap: 0.5rem;
+    padding-top: 1rem;
+  }
+  .projects_title_and_info {
+    flex-direction: column;
+    padding-top: 0.5rem;
+  }
+  .projects_left {
+    width: 100%;
+  }
+  .projects_demo {
+    width: 100%;
+    max-height: 40rem;
+    position: relative;
+    overflow: hidden;
+    margin: 1rem 0;
+  }
+}

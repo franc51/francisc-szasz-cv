@@ -24,14 +24,15 @@ const Navigation = () => {
           <a href="#contact">Contact</a>
         </li>
       </ul>
-      <Hamburger
-        className="hamburger"
-        size={20}
-        direction="right"
-        duration={0.8}
-        toggled={isOpen}
-        toggle={setOpen}
-      />
+      <div className="hamburger_wrapper">
+        <Hamburger
+          size={20}
+          direction="right"
+          duration={0.8}
+          toggled={isOpen}
+          toggle={setOpen}
+        />
+      </div>
     </nav>
   );
 };

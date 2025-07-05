@@ -23,7 +23,7 @@ export const projectData = [
   },
   {
     id: 3,
-    title: "What's Down",
+    title: "Chat application",
     description:
       "Full-stack live chat application, features include real-time messaging, live notifications, user authentication, peristent history.",
     github: "https://github.com/franc51/carly5",

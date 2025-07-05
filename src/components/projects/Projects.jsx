@@ -29,7 +29,7 @@ const Projects = () => {
               className={filter === cat ? "active" : ""}
               onClick={() => setFilter(cat)}
             >
-              {cat === "Other" ? "Other" : cat + " Projects"}
+              {cat === "Other" ? "Other" : cat}
             </button>
           ))}
         </div>
