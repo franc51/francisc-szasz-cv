@@ -1,11 +1,13 @@
-import React from "react";
+import { useState, React } from "react";
 import "./Navigation.css";
+import { Squeeze as Hamburger } from "hamburger-react";
 
 const Navigation = () => {
+  const [isOpen, setOpen] = useState(false);
   return (
     <nav>
       <h3>@Francisc Szasz</h3>
-      <ul>
+      <ul className="full_menu">
         <li>
           <a href="#about">About</a>
         </li>
@@ -22,6 +24,14 @@ const Navigation = () => {
           <a href="#contact">Contact</a>
         </li>
       </ul>
+      <Hamburger
+        className="hamburger"
+        size={20}
+        direction="right"
+        duration={0.8}
+        toggled={isOpen}
+        toggle={setOpen}
+      />
     </nav>
   );
 };
