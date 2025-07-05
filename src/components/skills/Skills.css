@@ -25,6 +25,11 @@ p {
   cursor: pointer;
   transform: translate(1rem);
 }
+
+.skills_description img {
+  height: 12rem;
+}
+
 @media screen and (max-width: 600px) {
   .skills_container {
     padding: 1rem;
