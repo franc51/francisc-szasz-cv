@@ -15,8 +15,8 @@ export const projectData = [
     title: "Velto",
     description:
       "Full-featured online electronics store, with user authentication, cart and wishlist functionalities, built for seamless UX with modern UI paterns.",
-    github: "https://github.com/franc51/carly5",
-    website: "https://carly-58c95.web.app/",
+    github: "https://github.com/franc51/Webshop",
+    website: "https://velto-70ff8.web.app/",
     tech: "Angular, Angular Material, MongoDB, Flask, Python, Docker",
     video: "https://i.ibb.co/cKPTkfkF/velto.png",
     category: "Angular",
@@ -26,10 +26,10 @@ export const projectData = [
     title: "Chat application",
     description:
       "Full-stack live chat application, features include real-time messaging, live notifications, user authentication, peristent history.",
-    github: "https://github.com/franc51/carly5",
-    website: "https://carly-58c95.web.app/",
+    github: "https://github.com/franc51/whatsdown",
+    website: "https://whatsdown-wngp.onrender.com/",
     tech: "React, Node.js, Express.js, WebSockets, MongoDB, Render web services",
-    video: "https://i.ibb.co/QqSvnnf/whatsdown.png",
+    video: "assets/whatsdown-video.gif",
     category: "React",
   },
   {
@@ -37,10 +37,10 @@ export const projectData = [
     title: "SunnySide Agency",
     description:
       "A pixel perfect landing page with elegant responsiveness and interactive mobile nav menu.",
-    github: "https://github.com/franc51/carly5",
-    website: "https://carly-58c95.web.app/",
+    github: "https://github.com/franc51/sunnyside-agency-landing-page-main",
+    website: "https://franc51.github.io/sunnyside-agency-landing-page-main/",
     tech: "HTML5, CSS3, JavaScript",
-    video: "https://i.ibb.co/QvXw4tc9/sunnyside.png",
+    video: "assets/sunnyside-video.gif",
     category: "Other",
   },
 ];
