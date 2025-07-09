@@ -1,6 +1,6 @@
 import { useState, React } from "react";
 import "./Navigation.css";
-import { Squeeze as Hamburger } from "hamburger-react";
+import { Squash as Hamburger } from "hamburger-react";
 
 const Navigation = () => {
   const [isOpen, setOpen] = useState(false);
@@ -29,7 +29,7 @@ const Navigation = () => {
           <Hamburger
             size={20}
             direction="right"
-            duration={0.8}
+            duration={0.5}
             toggled={isOpen}
             toggle={setOpen}
           />

@@ -64,6 +64,13 @@ a {
     animation: slideDown 0.2s ease-in-out;
     z-index: -10;
   }
+  .mobile_menu.sticky_menu {
+    position: fixed;
+    top: 0;
+  }
+  .mobile_menu:hover li {
+    color: black;
+  }
   nav {
     padding: 0.5rem;
     align-items: center;
