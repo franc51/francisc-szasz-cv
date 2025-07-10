@@ -11,17 +11,17 @@ const About = () => {
         <h3>"Simplicity is the soul of efficiency." - Austin Freeman</h3>
         <hr></hr>
         <p>
-          I'm a frontend engineer with a strong passion for building clean,
-          intuitive, and user-friendly interfaces. I got into programming during
-          university, and over time, I naturally gravitated toward frontend
-          development. It’s the perfect blend of creativity and logic, and it’s
-          where I feel most at home.
+          Detail-oriented Frontend Developer with a solid academic background
+          and over two years of hands-on experience in building scalable,
+          maintainable, and responsive web applications. Specialized in React
+          and Angular, with additional backend knowledge in Node.js, Flask, and
+          MongoDB
         </p>
         <p>
-          I take pride in having an idealistic mindset and always aim for the
-          highest level of quality in the work I do. I enjoy sharing what I
-          know, learning from others, and working as part of a team to build
-          thoughtful, well-crafted products that people genuinely enjoy using.
+          Mentored by a Senior IBM Engineer, I approach development with clean
+          code practices, performance optimization strategies, and a passion for
+          intuitive user experiences. Eager to contribute to collaborative teams
+          and deliver enterprise-grade frontend solutions in agile environments
         </p>
       </div>
     </div>

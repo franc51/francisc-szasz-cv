@@ -34,8 +34,8 @@ html {
 
 /* Scrollbar thumb (the draggable part) */
 ::-webkit-scrollbar-thumb {
-  background-color: #6de4f3;
-  border: 3px solid #f0f0f0; /* creates padding around thumb */
+  background-color: #158bca;
+  border: 3px solid #f0f0f0;
 }
 
 /* Scrollbar thumb on hover */

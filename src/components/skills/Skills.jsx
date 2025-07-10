@@ -30,7 +30,7 @@ const Skills = () => {
         {/* Animated GIF positioned absolutely */}
         {showPop && (
           <img
-            src="/assets/pop-animation.gif"
+            src="/assets/pop.gif"
             alt="pop"
             className="pop_gif"
             style={{

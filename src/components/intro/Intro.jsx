@@ -9,18 +9,10 @@ const Intro = () => {
   const [showConfetti, setShowConfetti] = useState(false);
   const { width, height } = useWindowSize();
 
-  const handleMouseEnter = () => {
-    setShowConfetti(true);
-
-    // Optional: stop after 2 seconds
-    setTimeout(() => setShowConfetti(false), 5000);
-  };
-
   return (
     <div className="intro_container">
       <TypeAnimation
         className="intro_name"
-        onClick={handleMouseEnter}
         sequence={[
           // Same substring at the start will only be typed out once, initially
           "Francisc Szasz",

@@ -28,7 +28,6 @@ const Testimonials = () => {
             developer.
             <br></br> <br></br>I can proudly say he can be a great asset to any
             team which wants to grow with a junior / junior-mid role.
-            <hr></hr>
           </p>
         </div>
       </div>
