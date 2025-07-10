@@ -6,6 +6,12 @@
   background-size: cover;
   background-position: 1rem left;
   transition: 0.2s ease;
+  background-image: radial-gradient(
+    circle at center,
+    #1b2e63,
+    #06102d,
+    rgb(0, 0, 0) 100%
+  );
 }
 .intro_button {
   all: unset;
@@ -54,11 +60,30 @@
   padding: 0.5rem 0;
   cursor: pointer;
   transition: 0.2s ease;
+  z-index: 2;
 }
 .intro_name:hover {
   color: #4cc1fbad;
 }
-
+.circle_image {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 10rem;
+  border-radius: 50%;
+  border: none;
+  box-shadow: 0px 0px 60px 60px #212f54;
+  transition: 1s ease;
+  border: 6px solid rgba(0, 0, 255, 0);
+  animation: infinite 10s handheldSway ease-in-out;
+}
+.circle_image:hover {
+  box-shadow: 0px 0px 40px 40px #00a2ff3c;
+  border: 8px solid rgba(18, 18, 128, 0.341);
+}
 @media screen and (max-width: 600px) {
   .intro_container {
     height: 90vh;
@@ -67,8 +92,8 @@
   }
   .intro_name {
     background-color: rgba(0, 0, 0, 0.841);
-    bottom: 50%;
-    font-size: 2.1rem;
+    bottom: 0%;
+    font-size: 1.2rem;
     padding: 2rem 0;
   }
   .intro_button {
@@ -76,5 +101,26 @@
     p {
       font-size: 1.1rem;
     }
+  }
+  .circle_image {
+    top: 40%;
+  }
+}
+
+@keyframes handheldSway {
+  0% {
+    transform: translate(-55%, -50%) rotate(0deg);
+  }
+  25% {
+    transform: translate(calc(-50% - 2px), calc(-50% + 10px)) rotate(-1deg);
+  }
+  50% {
+    transform: translate(calc(-50% + 2px), calc(-50% - 2px)) rotate(1deg);
+  }
+  75% {
+    transform: translate(calc(-50% - 1px), calc(-50% + 20px)) rotate(0deg);
+  }
+  100% {
+    transform: translate(-55%, -50%) rotate(0deg);
   }
 }

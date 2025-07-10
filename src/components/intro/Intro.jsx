@@ -1,16 +1,39 @@
 import React from "react";
 import "./Intro.css";
-import Confetti from "react-confetti";
-import { useState } from "react";
-import { useWindowSize } from "react-use";
 import { TypeAnimation } from "react-type-animation";
+import { useEffect } from "react";
 
 const Intro = () => {
-  const [showConfetti, setShowConfetti] = useState(false);
-  const { width, height } = useWindowSize();
+  useEffect(() => {
+    if (window.particlesJS) {
+      window.particlesJS("stars-js", {
+        particles: {
+          number: { value: 10 },
+          color: { value: "#ffffff" },
+          shape: { type: "circle" },
+          opacity: {
+            value: 0.8,
+            random: true,
+            anim: { enable: true, speed: 2, opacity_min: 0.8, sync: false },
+          },
+          size: {
+            value: 8,
+            random: true,
+          },
+          move: {
+            enable: true,
+            speed: 10,
+          },
+        },
+        background: {
+          color: "#000000",
+        },
+      });
+    }
+  }, []);
 
   return (
-    <div className="intro_container">
+    <div className="intro_container" id="stars-js">
       <TypeAnimation
         className="intro_name"
         sequence={[
@@ -28,9 +51,13 @@ const Intro = () => {
       <a href="/assets/Szasz-Francisc-CV-EN.pdf" download>
         <button className="intro_button">
           <p>Download Resume</p>
-          {showConfetti && <Confetti width={width} height={height} />}
         </button>
       </a>
+      <img
+        className="circle_image"
+        src="/assets/profile.png"
+        alt="profile"
+      ></img>
     </div>
   );
 };

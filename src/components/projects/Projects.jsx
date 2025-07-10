@@ -67,7 +67,13 @@ const Projects = () => {
                     <a href={project.website}>Live website</a>
                   </button>
                 </div>
-                <p>Technologies used: {project.tech}</p>
+                <div className="tech_div">
+                  {project.tech.map((tech, index) => (
+                    <span key={index} className="tech_item">
+                      {tech}
+                    </span>
+                  ))}
+                </div>
               </div>
               <div className="projects_demo">
                 <img src={project.video} alt="preview"></img>

@@ -34,7 +34,7 @@ html {
 
 /* Scrollbar thumb (the draggable part) */
 ::-webkit-scrollbar-thumb {
-  background-color: #158bca;
+  background-color: #212f54;
   border: 3px solid #f0f0f0;
 }
 
