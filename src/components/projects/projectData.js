@@ -22,7 +22,7 @@ export const projectData = [
     id: 2,
     title: "Velto",
     description:
-      "Full-featured online electronics store, with user authentication, cart and wishlist functionalities, built for seamless UX with modern UI paterns.",
+      "Velto is an online electronics store built with Angular and Angular Material, following a custom Figma design. The backend is powered by a Flask REST API, containerized with Docker, and deployed via Google Cloud Run.",
     github: "https://github.com/franc51/Webshop",
     website: "https://velto-70ff8.web.app/",
     tech: [
@@ -38,9 +38,9 @@ export const projectData = [
   },
   {
     id: 3,
-    title: "Chat application",
+    title: "SokChat",
     description:
-      "Full-stack live chat application, features include real-time messaging, live notifications, user authentication, peristent history.",
+      "SokChat is a full-stack, real-time chat application designed with responsiveness and scalability in mind. Built with React and WebSockets backend server, it ensures perfect live communication and instant message delivery. The app supports JWT-based authentication, maintains persistent chat history in MongoDB, and includes a real-time notification system, all optimized for both desktop and mobile use.",
     github: "https://github.com/franc51/whatsdown",
     website: "https://whatsdown-wngp.onrender.com/",
     tech: [
@@ -58,7 +58,7 @@ export const projectData = [
     id: 4,
     title: "SunnySide Agency",
     description:
-      "A pixel perfect landing page with elegant responsiveness and interactive mobile nav menu.",
+      "Visually striking responsive landing page, designed for modern marketing or creative agency. It was developed with pixel-perfect approach, maintaining visual consistency, spacing and typography, css grid and flexbox to ensure responsiveness across large dekstop screens to mobile phones and tablets. Clean and minimal codebase approach with lazy-loaded assets, compressed images and semnatic HTML for faster page loads and better SEO.",
     github: "https://github.com/franc51/sunnyside-agency-landing-page-main",
     website: "https://franc51.github.io/sunnyside-agency-landing-page-main/",
     tech: ["HTML5", "CSS3", "JavaScript"],

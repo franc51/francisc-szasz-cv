@@ -1,5 +1,5 @@
 .projects_container {
-  padding: 2rem 4rem;
+  padding: 2rem 0;
   display: flex;
   flex-direction: column;
 }
@@ -7,6 +7,7 @@
   display: flex;
   justify-content: space-between;
   margin-bottom: 2rem;
+  padding: 0 4rem;
 }
 .projects_filter_btns {
   display: flex;
@@ -31,7 +32,12 @@
 .projects_title_and_info {
   display: flex;
   justify-content: space-between;
-  padding: 2rem 0;
+  padding: 2rem 4rem;
+  transition: 0.3s ease-in;
+  cursor: pointer;
+}
+.projects_title_and_info:hover {
+  background-color: #6b93ff35;
 }
 .projects_left {
   width: 35%;
@@ -71,6 +77,7 @@
   max-height: 40rem;
   position: relative;
   overflow: hidden;
+  border: 2px solid #4463a080;
 }
 .projects_demo img {
   object-fit: cover;
@@ -111,10 +118,10 @@ a {
 
 @media screen and (max-width: 600px) {
   .projects_container {
-    padding: 1rem;
   }
   .projects_tile {
     flex-direction: column;
+    padding: 0 1rem;
   }
   .projects_filter_btns button {
     border: none;
@@ -133,11 +140,11 @@ a {
   }
   .projects_title_and_info {
     flex-direction: column;
-    padding-top: 0.5rem;
+    padding: 0.5rem 1rem;
   }
   .projects_left {
     width: 100%;
-    gap: 1rem;
+    gap: 1.5rem;
   }
   .projects_left p {
     font-size: 1rem;
@@ -148,17 +155,22 @@ a {
     position: relative;
     overflow: hidden;
     margin: 1rem 0;
+    border: 2px solid #4463a0;
   }
   .link_btns button {
     border: none;
     padding: 0.5rem 1rem;
-    padding-left: 4rem;
+    padding-left: 3rem;
     background-color: rgba(0, 132, 255, 0.103);
-    font-size: 1.1rem;
+    font-size: 0.8rem;
     background-position: 1rem;
     background-repeat: no-repeat;
     text-align: right;
     animation: infinite 2s buttonHeart;
     cursor: pointer;
+  }
+  .tech_item {
+    padding: 0.3rem 1rem;
+    font-size: 0.8rem;
   }
 }

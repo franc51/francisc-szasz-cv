@@ -1,5 +1,6 @@
 .about_container {
   display: flex;
+  padding: 4rem;
 }
 .about_title {
   width: 15%;

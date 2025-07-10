@@ -9,7 +9,7 @@ import Testimonials from "./components/testimonials/Testimonials";
 import Faq from "./components/faq/Faq";
 import Footer from "./components/footer/Footer";
 import Contact from "./components/contact/Contact";
-
+import Reveal from "./Reveal";
 function App() {
   return (
     <Router>
@@ -20,17 +20,29 @@ function App() {
           element={
             <>
               <Navigation />
-              <Intro />
+              <Reveal>
+                <Intro />
+              </Reveal>
               <div className="main_container">
-                <About />
-                <Skills />
+                <Reveal>
+                  <About />
+                </Reveal>
+                <Reveal>
+                  <Skills />
+                </Reveal>
               </div>
               <hr />
-              <Projects />
+              <Reveal>
+                <Projects />
+              </Reveal>
               <hr />
-              <Testimonials />
+              <Reveal>
+                <Testimonials />
+              </Reveal>
               <hr />
-              <Faq />
+              <Reveal>
+                <Faq />
+              </Reveal>
               <Footer />
             </>
           }
