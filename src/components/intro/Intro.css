@@ -62,7 +62,7 @@
   cursor: pointer;
   transition: 0.2s ease;
   z-index: 2;
-  font-family: "Carter One";
+  font-style: italic;
 }
 .intro_name:hover {
   color: #96b1ff;
@@ -85,10 +85,11 @@
 .circle_image:hover {
   box-shadow: 0px 0px 100px 10px #96b1ff;
   border: 6px solid #96b1ff;
+  scale: 1.03;
 }
 @media screen and (max-width: 600px) {
   .intro_container {
-    height: 80vh;
+    height: 85vh;
     position: relative;
     background-position: center;
   }
