@@ -51,49 +51,99 @@ const Skills = () => {
           <hr />
           <Tooltip id="ngid" />
           <Tooltip id="cssid" />
-          <p onClick={pop}>HTML5</p>
-          <p
-            data-tooltip-id="cssid"
-            data-tooltip-content="He loves me."
-            onClick={pop}
-          >
-            CSS3
-          </p>
-          <p onClick={pop}>SASS</p>
-          <p onClick={pop}>JavaScript</p>
-          <p onClick={pop}>TypeScript</p>
-          <p
-            data-tooltip-id="ngid"
-            data-tooltip-content="He likes me the most."
-            onClick={pop}
-          >
-            Angular
-          </p>
-          <p onClick={pop}>React</p>
-          <p onClick={pop}>Bootstrap 5</p>
-          <p onClick={pop}>MUI</p>
-          <p onClick={pop}>Angular Material</p>
-          <p onClick={pop}>GSAP</p>
+          <div className="wrapper">
+            <p onClick={pop} id="green">
+              HTML5
+            </p>
+            <p
+              data-tooltip-id="cssid"
+              data-tooltip-content="He loves me."
+              onClick={pop}
+              id="green"
+            >
+              CSS3
+            </p>
+            <p onClick={pop} id="green">
+              SASS
+            </p>
+            <p onClick={pop} id="green">
+              JavaScript
+            </p>
+            <p onClick={pop} id="green">
+              TypeScript
+            </p>
+            <p
+              data-tooltip-id="ngid"
+              data-tooltip-content="He likes me the most."
+              onClick={pop}
+              id="green"
+            >
+              Angular
+            </p>
+            <p onClick={pop} id="green">
+              React
+            </p>
+            <p onClick={pop} id="green">
+              Bootstrap 5
+            </p>
+            <p onClick={pop} id="green">
+              MUI
+            </p>
+            <p onClick={pop} id="green">
+              Angular Material
+            </p>
+            <p onClick={pop} id="green">
+              GSAP
+            </p>
+          </div>
         </div>
         <div className="skills_animation">
           <h3 className="skill_part">Backend</h3>
           <hr />
-          <p onClick={pop}>Node.js</p>
-          <p onClick={pop}>Express.js</p>
-          <p onClick={pop}>SQL</p>
-          <p onClick={pop}>MySQL</p>
-          <p onClick={pop}>MongoDB</p>
-          <p onClick={pop}>Python</p>
-          <p onClick={pop}>Flask</p>
+          <div className="wrapper">
+            <p onClick={pop} id="red">
+              Node.js
+            </p>
+            <p onClick={pop} id="red">
+              Express.js
+            </p>
+            <p onClick={pop} id="red">
+              SQL
+            </p>
+            <p onClick={pop} id="red">
+              MySQL
+            </p>
+            <p onClick={pop} id="red">
+              MongoDB
+            </p>
+            <p onClick={pop} id="red">
+              Python
+            </p>
+            <p onClick={pop} id="red">
+              Flask
+            </p>
+          </div>
         </div>
         <div className="skills_animation">
           <h3 className="skill_part">DevOps & Misc.</h3>
           <hr />
-          <p onClick={pop}>Docker</p>
-          <p onClick={pop}>Git</p>
-          <p onClick={pop}>Google Cloud</p>
-          <p onClick={pop}>Figma</p>
-          <p onClick={pop}>Firebase</p>
+          <div className="wrapper">
+            <p onClick={pop} id="yellow">
+              Docker
+            </p>
+            <p onClick={pop} id="yellow">
+              Git
+            </p>
+            <p onClick={pop} id="yellow">
+              Google Cloud
+            </p>
+            <p onClick={pop} id="yellow">
+              Figma
+            </p>
+            <p onClick={pop} id="yellow">
+              Firebase
+            </p>
+          </div>
         </div>
       </div>
     </div>
