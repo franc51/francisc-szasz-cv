@@ -45,7 +45,7 @@ const Intro = () => {
           "Francisc Szasz - Software Developer",
           10000,
         ]}
-        speed={10}
+        speed={30}
         repeat={Infinity}
       />
       <a href="/assets/Szasz-Francisc-CV-EN.pdf" download>

@@ -28,15 +28,16 @@
   font-weight: 600;
   transition: 0.2s ease;
   background-image: url("/public/assets/script.png");
+  background-color: #5b73b8;
   background-position: left;
   background-repeat: no-repeat;
   cursor: pointer;
-  color: #8fdaff;
+  color: #96b1ff;
 }
 .intro_button:hover {
   font-size: 1rem;
   padding: 1.3rem 3rem;
-  background-color: #8fdaff;
+  background-color: #96b1ff;
   background-position: 0.5rem;
 }
 .intro_button::after {
@@ -57,13 +58,14 @@
   color: white;
   font-size: 4rem;
   font-weight: 900;
-  padding: 0.5rem 0;
+  padding: 0rem 0;
   cursor: pointer;
   transition: 0.2s ease;
   z-index: 2;
+  font-family: "Carter One";
 }
 .intro_name:hover {
-  color: #4cc1fbad;
+  color: #96b1ff;
 }
 .circle_image {
   position: relative;
@@ -76,13 +78,13 @@
   border-radius: 50%;
   border: none;
   box-shadow: 0px 0px 60px 60px #212f54;
-  transition: 1s ease;
+  transition: 2s ease;
   border: 6px solid rgba(0, 0, 255, 0);
   animation: infinite 10s handheldSway ease-in-out;
 }
 .circle_image:hover {
-  box-shadow: 0px 0px 40px 40px #00a2ff3c;
-  border: 8px solid rgba(18, 18, 128, 0.341);
+  box-shadow: 0px 0px 100px 10px #96b1ff;
+  border: 6px solid #96b1ff;
 }
 @media screen and (max-width: 600px) {
   .intro_container {
@@ -98,7 +100,7 @@
   }
   .intro_button {
     top: 75%;
-    background-color: #8fbcff38;
+    background-color: #78a2e0de;
     p {
       font-size: 1rem;
     }

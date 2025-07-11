@@ -166,7 +166,7 @@ const Contact = () => {
               "I'll get back to you soon.",
               5000,
             ]}
-            speed={10}
+            speed={40}
             repeat={Infinity}
           />
         </div>
