@@ -2,6 +2,7 @@ import React from "react";
 import "./Intro.css";
 import { TypeAnimation } from "react-type-animation";
 import { useEffect } from "react";
+import { Tooltip } from "react-tooltip";
 
 const Intro = () => {
   useEffect(() => {
@@ -48,15 +49,19 @@ const Intro = () => {
         speed={30}
         repeat={Infinity}
       />
-      <a href="/assets/Szasz-Francisc-CV-EN.pdf" download>
+      <a href="/assets/Francisc-Szasz-CV-EN.pdf" download>
         <button className="intro_button">
           <p>Download Resume</p>
         </button>
       </a>
+      <Tooltip id="profile_img_id" />
+
       <img
         className="circle_image"
         src="/assets/profile.png"
         alt="profile"
+        data-tooltip-id="profile_img_id"
+        data-tooltip-content="Hello!"
       ></img>
     </div>
   );
