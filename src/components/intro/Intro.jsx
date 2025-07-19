@@ -3,8 +3,12 @@ import "./Intro.css";
 import { TypeAnimation } from "react-type-animation";
 import { useEffect } from "react";
 import { Tooltip } from "react-tooltip";
+import { useWindowSize } from "react-use";
+import Confetti from "react-confetti";
 
 const Intro = () => {
+  const { width, height } = useWindowSize();
+
   useEffect(() => {
     if (window.particlesJS) {
       window.particlesJS("stars-js", {
@@ -55,7 +59,12 @@ const Intro = () => {
         </button>
       </a>
       <Tooltip id="profile_img_id" />
-
+      <Confetti
+        style={{ position: "fixed", zIndex: 9999, top: 0, left: 0 }}
+        width={width}
+        height={height}
+        numberOfPieces={5}
+      />
       <img
         className="circle_image"
         src="/assets/profile.png"
