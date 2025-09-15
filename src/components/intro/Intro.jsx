@@ -41,7 +41,7 @@ const Intro = () => {
           // Same substring at the start will only be typed out once, initially
           "Francisc Szasz",
           1000,
-          "Francisc Szasz - Frontend Engineer",
+          "Francisc Szasz - Full-stack engineer",
           10000,
           "Francisc Szasz - Software Developer",
           10000,
@@ -49,7 +49,7 @@ const Intro = () => {
         speed={30}
         repeat={Infinity}
       />
-      <a href="/assets/Francisc-Szasz-CV-EN.pdf" download>
+      <a href="/assets/Szasz-Francisc-En.pdf" download>
         <button className="intro_button">
           <p>Download Resume</p>
         </button>
@@ -62,7 +62,6 @@ const Intro = () => {
         data-tooltip-id="profile_img_id"
         data-tooltip-content="Hello!"
       ></img>
-      <img className="frame_image" src="/assets/frame.avif" alt="frame"></img>
     </div>
   );
 };
