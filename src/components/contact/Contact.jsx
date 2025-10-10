@@ -82,11 +82,16 @@ const Contact = () => {
           <h1>Contact Details</h1>
           <h2>Francisc Szasz</h2>
           <p>+40 720 628 821</p>
-          <a href="https://www.linkedin.com/in/francisc-szasz-342b16137/">
+          <a
+            href="https://www.linkedin.com/in/francisc-szasz-342b16137/"
+            className="clickable"
+          >
             Linkedin
           </a>
-          <a href="https://github.com/franc51">Github</a>
-          <a href="https://github.com/franc51">francisc_szasz@yahoo.com</a>
+          <a href="https://github.com/franc51" className="clickable">
+            Github
+          </a>
+          <p className="email">francisc_szasz@yahoo.com</p>
         </div>
         <div className="contact_form">
           <h1>Let's build something cool together</h1>

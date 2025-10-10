@@ -87,12 +87,6 @@ const Skills = () => {
               Bootstrap 5
             </p>
             <p onClick={pop} id="green">
-              MUI
-            </p>
-            <p onClick={pop} id="green">
-              Angular Material
-            </p>
-            <p onClick={pop} id="green">
               GSAP
             </p>
           </div>

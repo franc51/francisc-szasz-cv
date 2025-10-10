@@ -86,6 +86,11 @@
   color: white !important;
   padding: 0.5rem !important;
 }
+.clickable {
+  color: blue;
+  text-decoration: underline;
+  cursor: pointer;
+}
 
 @keyframes heartBeat {
   0% {

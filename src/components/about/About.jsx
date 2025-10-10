@@ -11,21 +11,21 @@ const About = () => {
         <h3>"Simplicity is the soul of efficiency." - Austin Freeman</h3>
         <hr></hr>
         <p>
-          Detail-oriented Full-stack ready Frontend Developer with a solid
-          academic background and over two years of hands-on experience in
-          building scalable, maintainable, responsive web applications.
-          Specialized in React & Angular, with additional backend knowledge in
-          Node.js Flask and MongoDB.
+          Detail-oriented Full-stack developer with a solid academic background
+          in computer science and over two years of experience in building
+          responsive, user-focused web applications. Experience in React and
+          Angular, with additional backend exposure in Node.js, Flask, and
+          MongoDB.
         </p>
         <p>
-          Mentored by a Senior IBM Engineer, I approach development with clean
-          code practices, performance optimization strategies, and a passion for
-          intuitive user experiences. Eager to contribute to collaborative teams
-          and deliver enterprise-grade frontend solutions in agile environments.
+          Mentored by a Senior IBM Engineer, I follow clean code practices,
+          performance optimization strategies, and craft intuitive user
+          experiences. Eager to contribute to collaborative teams and deliver
+          high-quality software solutions.
         </p>
 
         <a className="btn-testimonials" href="#testimonials">
-          See what others say about me
+          See what others say about me ▶
         </a>
       </div>
     </div>
