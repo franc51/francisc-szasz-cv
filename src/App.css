@@ -9,12 +9,12 @@ body {
 }
 html {
   scroll-behavior: smooth;
+  scroll-padding-top: 80px;
 }
 .main_container {
   padding: 3rem 4rem;
   display: flex;
   flex-direction: column;
-  gap: 2rem;
 }
 @media screen and (max-width: 600px) {
   .main_container {

@@ -18,7 +18,7 @@ const Footer = () => {
             "Let's create it together.",
             2000,
           ]}
-          speed={10}
+          speed={30}
           repeat={Infinity}
         />
       </div>

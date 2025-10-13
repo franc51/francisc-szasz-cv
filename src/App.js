@@ -10,6 +10,8 @@ import Faq from "./components/faq/Faq";
 import Footer from "./components/footer/Footer";
 import Contact from "./components/contact/Contact";
 import Reveal from "./Reveal";
+import ScrollToTopButton from "./components/skrollToTop/skroll-to-top";
+
 function App() {
   return (
     <Router>
@@ -44,6 +46,7 @@ function App() {
                 <Faq />
               </Reveal>
               <Footer />
+              <ScrollToTopButton></ScrollToTopButton>
             </>
           }
         />

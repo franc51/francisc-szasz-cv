@@ -2,6 +2,7 @@ import React from "react";
 import "./Intro.css";
 import { TypeAnimation } from "react-type-animation";
 import { useEffect } from "react";
+import { Tooltip } from "react-tooltip";
 
 const Intro = () => {
   useEffect(() => {
@@ -40,23 +41,26 @@ const Intro = () => {
           // Same substring at the start will only be typed out once, initially
           "Francisc Szasz",
           1000,
-          "Francisc Szasz - Frontend Engineer",
+          "Francisc Szasz - Full-stack engineer",
           10000,
           "Francisc Szasz - Software Developer",
           10000,
         ]}
-        speed={10}
+        speed={30}
         repeat={Infinity}
       />
-      <a href="/assets/FranciscSzasz-CV-13oct.pdf" download>
+      <a href="/assets/Szasz-Francisc-cv-en.pdf" download>
         <button className="intro_button">
           <p>Download Resume</p>
         </button>
       </a>
+      <Tooltip id="profile_img_id" />
       <img
         className="circle_image"
         src="/assets/profile.png"
         alt="profile"
+        data-tooltip-id="profile_img_id"
+        data-tooltip-content="Hello!"
       ></img>
     </div>
   );

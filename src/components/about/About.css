@@ -20,6 +20,24 @@
 hr {
   margin: 2rem 0;
 }
+.btn-testimonials {
+  background-color: rgb(0, 255, 157);
+  color: #000000;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  font-size: 1.1rem;
+  font-weight: 100;
+  cursor: pointer;
+}
+
+.btn-testimonials:hover {
+  transition: 0.2s ease-out;
+  background-color: #212f54;
+  transition: translateX(50px);
+  box-shadow: 0 8px 16px rgba(79, 70, 229, 0.5);
+  color: white;
+  border: none;
+}
 
 @media screen and (max-width: 600px) {
   .about_container {

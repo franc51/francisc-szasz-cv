@@ -20,7 +20,7 @@ li {
 }
 li:hover {
   transition: 0.2s ease;
-  color: #3991bf;
+  color: #96b1ff;
 }
 h3 {
   font-weight: 900;
@@ -29,7 +29,7 @@ h3 {
 }
 h3:hover {
   transition: 0.2s ease;
-  color: rgba(0, 0, 255, 0.484);
+  color: #96b1ff;
 }
 a {
   all: unset;
@@ -54,7 +54,7 @@ a {
     position: absolute;
     top: 100%;
     left: 0;
-    background-color: #38497bed;
+    background-color: #38497bee;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -64,12 +64,15 @@ a {
     animation: slideDown 0.2s ease-in-out;
     z-index: -10;
   }
+  .mobile_menu li a {
+    color: rgba(255, 255, 255, 0.904);
+  }
+  .mobile_menu li a:hover {
+    color: rgba(255, 255, 255, 0.904);
+  }
   .mobile_menu.sticky_menu {
     position: fixed;
     top: 0;
-  }
-  .mobile_menu:hover li {
-    color: black;
   }
   nav {
     padding: 0.5rem;

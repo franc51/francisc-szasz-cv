@@ -26,7 +26,7 @@
 }
 .projects_filter_btns button:hover {
   translate: 0 -0.5rem;
-  box-shadow: 4px 5px 1px 1px #9dc0f2;
+  box-shadow: 4px 5px 1px 1px #96b1ff;
 }
 
 .projects_title_and_info {
@@ -37,7 +37,7 @@
   cursor: pointer;
 }
 .projects_title_and_info:hover {
-  background-color: #6b93ff35;
+  background-color: #96b0ff36;
 }
 .projects_left {
   width: 35%;
@@ -100,7 +100,8 @@ a {
   background-color: #212f54;
   color: #a4c1fc;
   border-radius: 1rem;
-  padding: 0.3rem 1rem;
+  padding: 0.4rem 1rem;
+  font-family: monospace;
 }
 
 @keyframes buttonHeart {
@@ -161,7 +162,6 @@ a {
     border: none;
     padding: 0.5rem 1rem;
     padding-left: 3rem;
-    background-color: rgba(0, 132, 255, 0.103);
     font-size: 0.8rem;
     background-position: 1rem;
     background-repeat: no-repeat;

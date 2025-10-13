@@ -31,6 +31,21 @@ const Testimonials = () => {
           </p>
         </div>
       </div>
+      <hr></hr>
+      <div className="testimonials_each">
+        <div className="testimonials">
+          <h1>Ovidiu-Rareș Botsch</h1>
+          <h2>QA Engineer @Arnia Software</h2>
+          <p>
+            I had the pleasure of being colleague and working with Francisc
+            during the master programme. He consistently demonstrated
+            outstanding skills in frontend development, crafting responsive and
+            intuitive user interfaces. His eye for web design also ensured that
+            every project was not only functional but also aesthetically
+            pleasing. Francisc is a true asset to any team.
+          </p>
+        </div>
+      </div>
     </div>
   );
 };
