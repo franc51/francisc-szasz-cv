@@ -49,7 +49,7 @@ const Intro = () => {
         speed={30}
         repeat={Infinity}
       />
-      <a href="/assets/Szasz-Francisc-cv-en.pdf" download>
+      <a href="/assets/Francisc-Szasz-CV-13oct.pdf" download>
         <button className="intro_button">
           <p>Download Resume</p>
         </button>
